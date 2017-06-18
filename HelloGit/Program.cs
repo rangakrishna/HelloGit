@@ -10,14 +10,22 @@ namespace HelloGit
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
-            Console.WriteLine("Hello USA");
-            Console.ReadLine();
+            try
+            {
+                Console.WriteLine("Hello World");
+                Console.WriteLine("Hello USA");
+                Console.ReadLine();
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine("Exception has occured");
+            }
         }
 
         public static void LogChanges()
         {
             Console.WriteLine("Write to Log");
         }
-    }
+
+            }
 }
