@@ -14,5 +14,10 @@ namespace HelloGit
             Console.WriteLine("Hello USA");
             Console.ReadLine();
         }
+
+        public static void LogChanges()
+        {
+            Console.WriteLine("Write to Log");
+        }
     }
 }
